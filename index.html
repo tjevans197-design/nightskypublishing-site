@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Night Sky Publishing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
@@ -12,45 +13,80 @@
       color: #ffffff;
       text-align: center;
     }
+
     header {
       padding: 60px 20px 20px;
     }
+
     h1 {
       font-size: 3em;
       margin-bottom: 10px;
     }
+
     p {
       max-width: 700px;
       margin: 0 auto 20px;
       line-height: 1.6;
     }
-    .video-container {
-      margin: 40px auto;
-      width: 90%;
-      max-width: 800px;
-      aspect-ratio: 16 / 9;
+
+    .book-cover {
+      margin: 30px auto;
     }
-    .video-container iframe {
-      width: 100%;
-      height: 100%;
-      border-radius: 10px;
+
+    .book-cover img {
+      max-width: 220px;
+      border-radius: 8px;
     }
+
+    .video-link {
+      margin: 10px 0 30px;
+      font-size: 0.95em;
+    }
+
+    .video-link a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
     .buttons {
-      margin: 40px 0;
+      margin: 30px 0;
     }
+
     .btn {
       display: inline-block;
       margin: 10px;
-      padding: 15px 25px;
+      padding: 14px 24px;
       background: #ffffff;
       color: #000000;
       text-decoration: none;
       border-radius: 5px;
       font-weight: bold;
     }
+
     .btn:hover {
       background: #cccccc;
     }
+
+    .section {
+      margin: 40px 20px;
+    }
+
+    .small-link {
+      font-size: 0.9em;
+      margin-top: 10px;
+    }
+
+    .small-link a {
+      color: #aaa;
+      text-decoration: underline;
+    }
+
+    .related-links a {
+      display: block;
+      color: #aaa;
+      margin: 5px 0;
+    }
+
   </style>
 </head>
 
@@ -58,56 +94,85 @@
 
 <header>
   <h1>Night Sky Publishing</h1>
+
   <p>
     A new perspective. A new narrative. A work that challenges conventional thought
     and invites the reader to explore deeper truths about existence, consciousness,
     and the nature of reality.
   </p>
+
+  <p><strong>
+    A Spiritual Thriller Based on a True Story<br>
+    A scientist’s account of a revelation that rewrote his reality—and may challenge yours.
+  </strong></p>
 </header>
 
-<!-- MAIN VIDEO (FIXED) -->
-<div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/DNHkSZRl450"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+<!-- BOOK COVER -->
+<div class="book-cover">
+  <img src="https://raw.githubusercontent.com/tjevans197-design/nightskypublishing-site/main/Newbook.jpg" alt="Book Cover">
 </div>
 
+<!-- MAIN VIDEO LINK -->
+<div class="video-link">
+  <a href="https://www.youtube.com/watch?v=DNHkSZRl450" target="_blank">
+    🎬 Watch Introduction Video
+  </a>
+</div>
+
+<!-- BUTTONS -->
 <div class="buttons">
   <a href="#" class="btn">Buy on Google Play</a>
   <a href="#" class="btn">Order Print Edition</a>
 </div>
 
-<hr>
+<!-- DESCRIPTION -->
+<div class="section">
+  <p>
+    For most of his life, Evan Whitten trusted science, reason, and evidence as his compass.
+    That changed after a series of events that led him into a reality he could no longer explain.
+  </p>
 
-<!-- SECOND VIDEO (Mirror Image) -->
-<h2>Additional Video</h2>
-
-<div class="video-container">
-  <iframe
-    src="https://www.youtube.com/embed/AzwG_UXvwtU"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
+  <p>
+    This is not doctrine. Not fiction. It is a documented account presented for the reader to examine—and judge for themselves.
+  </p>
 </div>
 
-<hr>
+<!-- SUPPORTING VIDEO -->
+<div class="section small-link">
+  <a href="https://www.youtube.com/watch?v=AzwG_UXvwtU" target="_blank">
+    View Supporting Exhibit: Mirror Image Video Referenced in the Book
+  </a>
+</div>
+
+<!-- ABOUT -->
+<div class="section">
+  <p>
+    <strong>About the Author</strong><br>
+    Evan Whitten is a researcher whose work explores the boundaries between science, perception, and consciousness.
+  </p>
+</div>
+
+<!-- RELATED LINKS -->
+<div class="section related-links">
+  <strong>Related Links</strong><br>
+  <a href="https://www.youtube.com/@EvanWhitten-q8f" target="_blank">YouTube Channel</a>
+  <a href="https://www.facebook.com/profile.php?id=61564558785542" target="_blank">Facebook</a>
+</div>
 
 <!-- CONTACT -->
-<h2>Contact</h2>
+<div class="section">
+  <p>
+    For inquiries, please contact:<br><br>
+    <strong>Attention: John Carenzia</strong><br>
+    <a href="mailto:info@nightskypublishing.org" style="color:white;">
+      info@nightskypublishing.org
+    </a>
+  </p>
 
-<p>
-For inquiries, please contact:<br><br>
-<strong>Attention: John Carenzia</strong><br>
-<a href="mailto:info@nightskypublishing.org" style="color:white;">
-info@nightskypublishing.org
-</a>
-</p>
-
-<p style="font-size: 0.9em; color: #aaa;">
-Important: Due to current email routing behavior, all responses will be delivered to your spam or junk folder. Please check your spam folder for replies. All inquiries are reviewed and responded to in a timely manner.
-</p>
+  <p style="font-size: 0.9em; color: #aaa;">
+    Important: Due to current email routing behavior, all responses will be delivered to your spam or junk folder. Please check your spam folder for replies.
+  </p>
+</div>
 
 </body>
 </html>
