@@ -1,4 +1,4 @@
-index.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -26,9 +26,13 @@ index.html<!DOCTYPE html>
     }
     .video-container {
       margin: 40px auto;
+      width: 90%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
     }
-    video {
-      max-width: 90%;
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
       border-radius: 10px;
     }
     .buttons {
@@ -61,18 +65,49 @@ index.html<!DOCTYPE html>
   </p>
 </header>
 
+<!-- MAIN VIDEO (FIXED) -->
 <div class="video-container">
-  <video controls>
-    <source src="yourvideo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <iframe
+    src="https://www.youtube.com/embed/DNHkSZRl450"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 </div>
 
 <div class="buttons">
   <a href="#" class="btn">Buy on Google Play</a>
   <a href="#" class="btn">Order Print Edition</a>
 </div>
-</body>
-</html>
+
+<hr>
+
+<!-- SECOND VIDEO (Mirror Image) -->
+<h2>Additional Video</h2>
+
+<div class="video-container">
+  <iframe
+    src="https://www.youtube.com/embed/AzwG_UXvwtU"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+</div>
+
+<hr>
+
+<!-- CONTACT -->
+<h2>Contact</h2>
+
+<p>
+For inquiries, please contact:<br><br>
+<strong>Attention: John Carenzia</strong><br>
+<a href="mailto:info@nightskypublishing.org" style="color:white;">
+info@nightskypublishing.org
+</a>
+</p>
+
+<p style="font-size: 0.9em; color: #aaa;">
+Important: Due to current email routing behavior, all responses will be delivered to your spam or junk folder. Please check your spam folder for replies. All inquiries are reviewed and responded to in a timely manner.
+</p>
+
 </body>
 </html>
